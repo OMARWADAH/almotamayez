@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>لوحة التحكم | المتميز الراقي</title>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/admin-assets/admin.css?v=3">
+</head>
+<body>
+<header class="a-top">
+  <img src="/img/logo.png" alt="شعار المتميز الراقي" width="857" height="292">
+  <strong>لوحة التحكم</strong>
+  <span class="a-user" id="a-user"></span>
+  <a href="/" target="_blank" rel="noopener" class="a-btn ghost">عرض الموقع</a>
+  <form method="post" action="/admin/logout"><button class="a-btn ghost">تسجيل الخروج</button></form>
+</header>
+<nav class="a-tabs" role="tablist">
+  <button role="tab" data-tab="products" aria-selected="true">المنتجات</button>
+  <button role="tab" data-tab="categories">الأقسام</button>
+  <button role="tab" data-tab="offers">العروض</button>
+  <button role="tab" data-tab="portfolio">معرض الأعمال</button>
+  <button role="tab" data-tab="home">الواجهة والتواصل</button>
+  <button role="tab" data-tab="seo">عناوين الصفحات</button>
+  <button role="tab" data-tab="account">الحساب</button>
+</nav>
+<main class="a-main" id="a-main"><p class="a-muted">جارٍ التحميل…</p></main>
+<dialog id="dlg" class="a-dlg"><form method="dialog" id="dlg-form" novalidate></form></dialog>
+<div class="a-toast" id="a-toast" role="status" aria-live="polite"></div>
+<script src="/admin-assets/admin.js?v=3" defer></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="تذاكر — نموذج توضيحي">
+<defs>
+<filter id="sh" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000" flood-opacity=".18"/></filter>
+<linearGradient id="gl" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".9"/><stop offset=".35" stop-color="#fff" stop-opacity="0"/><stop offset=".55" stop-color="#fff" stop-opacity=".45"/><stop offset=".7" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8a6a1f"/><stop offset=".45" stop-color="#f6dc8a"/><stop offset=".6" stop-color="#c79a2c"/><stop offset="1" stop-color="#7a5a14"/></linearGradient>
+<linearGradient id="silver" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8d8d8d"/><stop offset=".5" stop-color="#f4f4f4"/><stop offset="1" stop-color="#9a9a9a"/></linearGradient>
+<radialGradient id="glow" cx=".5" cy=".4" r=".7"><stop offset="0" stop-color="#fff" stop-opacity=".35"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+<radialGradient id="bgg" cx=".5" cy=".35" r=".8"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#EAF6FC"/></radialGradient>
+<pattern id="holes" width="10" height="10" patternUnits="userSpaceOnUse"><circle cx="5" cy="5" r="2.2" fill="#EAF6FC"/></pattern>
+<pattern id="holes2" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="6" cy="6" r="3" fill="#000" opacity=".35"/></pattern>
+</defs>
+<rect width="800" height="600" fill="url(#bgg)"/>
+<g transform="rotate(-6 400 300)" filter="url(#sh)"><rect x="140" y="200" width="420" height="200" rx="12" fill="#2CABE2"/><rect x="560" y="200" width="120" height="200" rx="12" fill="#fff"/></g><g transform="rotate(-6 400 300)"><line x1="560" y1="210" x2="560" y2="390" stroke="#999" stroke-width="3" stroke-dasharray="8 8"/><text x="350" y="295" font-size="46.0" font-weight="800" fill="#fff" text-anchor="middle" font-family="Tajawal, 'IBM Plex Sans Arabic', Tahoma, sans-serif" >تذاكر</text><text x="350" y="345" font-size="20.0" font-weight="500" fill="#fff" text-anchor="middle" font-family="Tajawal, 'IBM Plex Sans Arabic', Tahoma, sans-serif" >دخول عام · مقعد 24</text><text x="620" y="310" font-size="22.0" font-weight="700" fill="#111" text-anchor="middle" font-family="Tajawal, 'IBM Plex Sans Arabic', Tahoma, sans-serif" transform="rotate(-90 620 300)">No. 0157</text></g>
+<g><rect x="610" y="18" width="172" height="38" rx="19" fill="#111" opacity=".82"/><text x="696" y="44" font-size="18" font-weight="700" fill="#fff" text-anchor="middle" font-family="Tajawal, 'IBM Plex Sans Arabic', Tahoma, sans-serif">نموذج توضيحي</text></g>
+</svg>
